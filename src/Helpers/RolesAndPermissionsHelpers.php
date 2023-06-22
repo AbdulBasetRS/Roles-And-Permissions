@@ -1,7 +1,5 @@
 <?php
 
-namespace Abdulbaset\RolesAndPermissions\Helpers;
-
 use Abdulbaset\RolesAndPermissions\Models\Permission;
 use Abdulbaset\RolesAndPermissions\Models\Role;
 use Abdulbaset\RolesAndPermissions\Models\RoleHasPermission;

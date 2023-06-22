@@ -9,7 +9,6 @@ class RolesAndPermissionsServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(__DIR__.'/../Config/RolesAndPermissionsConfig.php', 'RolesAndPermissionsConfig');
-        $this->loadHelper('RolesAndPermissionsHelpers', __DIR__.'/../Helpers');
     }
 
     public function boot(): void
