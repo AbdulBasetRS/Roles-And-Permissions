@@ -3,13 +3,13 @@
     "description": "The RolesAndPermissions package is a Laravel package that provides a simple and flexible way to manage user roles and permissions in your application. It allows you to define roles and assign permissions to those roles, and then assign roles to users. This makes it easy to manage access control in your application and ensure that users only have access to the parts of the application that they need.",
     "type": "library",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "autoload": {
         "psr-4": {
             "Abdulbaset\\RolesAndPermissions\\": "src/"
         },
         "files": [
-            "src/RolesAndPermissionsHelpers.php"
+            "src/Helpers/RolesAndPermissionsHelpers.php"
         ]
     },
     "homepage": "https://digitalatum.com",
