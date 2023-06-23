@@ -8,4 +8,3 @@
             'UserHasRole' => true
         ]
     ];
-        
